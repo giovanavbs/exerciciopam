@@ -18,17 +18,17 @@ Da para observar na imagem acima alguns erros possíveis. Neste caso, é importa
 
 ![Print de continuação da imagem 1][def2]
 
-[def2]: image-1.png
+[def2]: imagens/image-1.png
 
 Efetuamos o Git pull novamente, desta vez trocando a branch de master para main, que era o possível erro. Uma branch é a ramificação de código na qual se está escrevendo. 
 
 ![Continuação dos prints][def3]
 
-[def3]: image-2.png
+[def3]: imagens/image-2.png
 
 ![Continuação dos Prints][def4]
 
-[def4]: image-3.png
+[def4]: imagens/image-3.png
 
 ```
 $git add . : Adiciona os arquivos selecionados ao repositório configurado
@@ -40,15 +40,15 @@ Os arquivos "upados" dentro do repositório se tratam de exercícios de fixaçã
 
 ![Continuação dos prints do exercicio 5](image-5.png)
 
-[def5]: image-4.png
+[def5]: imagens/image-4.png
 
 ![Continuação dos prints do exercicio 5][def6]
 
-[def6]: image-6.png
+[def6]: imagens/image-6.png
 
 ![Continuação dos prints do exercicio 5][def7]
 
-[def7]: image-7.png
+[def7]: imagens/image-7.png
 
 Na primeira imagem há a declaração das váriaveis e dos elementos. Em seguida a conexão dos elementos e conversão das váriaveis para os cálculos então, estruturas condicionais onde alguma das variveis pode receber um número negativo para desconsiderar ela e calcular a soma apenas das variaveis que receberam valores positivos.
 Por fim, os códigos do botão para enviar para o outro exercicio (o **getBaseContext** foi usado como substituto do **this** porque o android não quis reconhecer).
@@ -57,15 +57,15 @@ Agora vejamos o exercício 4:
 
 ![Prints do exercicio 4][def8]
 
-[def8]: image-8.png
+[def8]: imagens/image-8.png
 
 ![Continuação dos prints do exercicio 4][def9]
 
-[def9]: image-9.png
+[def9]: imagens/image-9.png
 
 ![Continuação dos prints do exercicio 4][def10]
 
-[def10]: image-10.png
+[def10]: imagens/image-10.png
 
 Na primeira etapa pode ser observado o mesmo do que foi feito no exercício anterior. Já na segunda etapa há uma condição para garantir que foi informado um horario entree 24-0, outra para horarios até 17 que ao receber 6 horas ainda não passa da meia noite onde o horario reseta  e as últimas condições para os valores que ultrapassam a meia noite e devem ser contados como 1, 2, 3... e não como 25, 26, 27 como aconteceria caso só somasse 6 horas. Por último, a terceira etapa é apenas o código do botão, utilizando a mesma sintaxe do anterior.
 
