@@ -38,7 +38,7 @@ Os arquivos "upados" dentro do repositório se tratam de exercícios de fixaçã
 
 ![Print exercicio 5][def5]
 
-![Continuação dos prints do exercicio 5](image-5.png)
+![Continuação dos prints do exercicio 5] imagens/image-5.png 
 
 [def5]: imagens/image-4.png
 
