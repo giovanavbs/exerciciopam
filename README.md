@@ -36,9 +36,7 @@ $git add . : Adiciona os arquivos selecionados ao repositório configurado
 
 Os arquivos "upados" dentro do repositório se tratam de exercícios de fixação no Android Studio, vejamos: 
 
-![Print exercicio 5][def5]
-
-![Continuação dos prints do exercicio 5] imagens/image-5.png 
+![Print exercicio 5][def5] imagens/image-5.png 
 
 [def5]: imagens/image-4.png
 
