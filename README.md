@@ -73,7 +73,7 @@ Primeiro, fazemos a declaração de cada uma das variáveis que serão utilizada
 
 Em segundo, há uma estrutura condicional  para garantir que foi informado um horario entre 24-0, outra condição para horarios até 17 que ao receber 6 horas ainda não passa da meia noite onde o horario reseta e mais algumas condições para os valores que ultrapassam a meia noite e devem ser contados como 1, 2, 3... e não como 25, 26, 27 como aconteceria caso só somasse 6 horas.
 
-![Exercicio 4 códigos](imageas4.png)
+![Exercicio 4 códigos]image/imageas4.png
  Por fim, o código do botão para enviar para o outro exercício (o getBaseContext foi usado como substituto do this porque o android n quis reconhecer).
 
 Agora, passando para o exercício 5: 
