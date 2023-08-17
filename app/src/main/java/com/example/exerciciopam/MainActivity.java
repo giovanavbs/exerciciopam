@@ -38,8 +38,7 @@ public class MainActivity extends AppCompatActivity {
         num3 = (EditText) findViewById(R.id.num3);
         btncalc = (Button) findViewById(R.id.btncalc);
         result = (TextView) findViewById(R.id.tvresult)
-        btnex1 = (Button) findViewById(R.id.btnex1);
-
+    
 
         btncalc.setOnClickListener(view -> {
             n1 =Integer.parseInt(String.valueOf(num1.getText()));
