@@ -25,12 +25,6 @@ public class ex4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ex4);
-
-        num1 = (EditText) findViewById(R.id.num1);
-        btncalc = (Button) findViewById(R.id.btncalc);
-        result = (TextView) findViewById(R.id.tvresult);
-        btnex2 = (Button) findViewById(R.id.btnex2);
-
       
         if(entrada <= 24 && entrada >= 0) {
             if (entrada <= 18) {
