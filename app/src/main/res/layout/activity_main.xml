@@ -42,8 +42,9 @@
             android:ems="10"
             android:hint="@string/digite"
             android:importantForAutofill="no"
-            android:inputType="number"
-            android:padding="30dp" />
+            android:inputType="numberDecimal|numberSigned"
+            android:padding="30dp"
+            />
 
         <EditText
             android:id="@+id/num2"
@@ -53,7 +54,7 @@
             android:ems="10"
             android:hint="@string/digite"
             android:importantForAutofill="no"
-            android:inputType="number"
+            android:inputType="numberDecimal|numberSigned"
             android:padding="30dp" />
 
         <EditText
@@ -64,7 +65,7 @@
             android:ems="10"
             android:hint="@string/digite"
             android:importantForAutofill="no"
-            android:inputType="number"
+            android:inputType="numberDecimal|numberSigned"
             android:padding="30dp" />
 
         <Button

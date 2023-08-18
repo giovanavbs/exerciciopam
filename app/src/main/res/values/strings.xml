@@ -5,6 +5,13 @@
     <string name="next">exercicio 4</string>
     <string name="next2">exercicio 5</string>
     <string name="result">resultado</string>
+    <string name="umam">1 da manhã</string>
+    <string name="doisam">2 da manhã</string>
+    <string name="tresam">3 da manhã</string>
+    <string name="quatroam">4 da manhã</string>
+    <string name="cincoam">5 da manhã</string>
+    <string name="seisam">6 da manhã</string>
+    <string name="invalido">horario invalido, porfavor insira um numero entre 0-24</string>
     <string name="txtexp2">4. Faça um programa que leia o horário de entrada (0 a 24h) e retorne o horário de saída em um turno de 6h.</string>
     <string name="txtexp">5.Faça um algoritmo que leia uma sequência de números inteiros. Se o usuário digitar um número negativo o algoritmo deverá retornar a média dos números digitados (sem o valor negativo).</string>
 </resources>

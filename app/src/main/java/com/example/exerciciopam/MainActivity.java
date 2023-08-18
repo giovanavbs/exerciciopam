@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         num3 = (EditText) findViewById(R.id.num3);
         btncalc = (Button) findViewById(R.id.btncalc);
         result = (TextView) findViewById(R.id.tvresult);
+        btnex1 = (Button) findViewById(R.id.btnex1);
 
 
         btncalc.setOnClickListener(view -> {
@@ -82,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         btnex1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), MainActivity.class);
+                Intent intent = new Intent(getBaseContext(), ex4.class);
 
                 //Intent intent = new Intent( this, ex4.class); (n funcionou por motivo desconhecido)
                 startActivity(intent);

@@ -26,33 +26,32 @@ public class ex4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ex4);
 
-        if(entrada <= 24 && entrada >= 0) {
-            if (entrada <= 18) {
-                horario = entrada + 6;
-                tvresult.setText(+entrada);
-            }
-            if (entrada == 19) {
-                tvresult.setText("1 da manhã");
-            }
-            if (entrada == 20) {
-                tvresult.setText("2 da manhã");
-            }
-            if (entrada == 21) {
-                tvresult.setText("3 da manhã");
-            }
-            if (entrada == 22) {
-                tvresult.setText("3 da manhã");
-            }
-            if (entrada == 23) {
-                tvresult.setText("4 da manhã");
-            }
-            if (entrada == 24) {
-                tvresult.setText("5 da manhã");
-            }
-            else{
-                tvresult.setText("horario invalido, insira um valor entre 0-24h!");
-            }
-        }
+        num1 = (EditText) findViewById(R.id.num1);
+        btncalc = (Button) findViewById(R.id.btncalc);
+        tvresult = (TextView) findViewById(R.id.tvresult);
+        btnex2 = (Button) findViewById(R.id.btnex2);
+
+        btncalc.setOnClickListener(view -> {
+                    entrada = Integer.parseInt(String.valueOf(num1.getText()));
+
+                    if (entrada <= 18 && entrada >= 0) {
+                        horario = entrada + 6;
+                        tvresult.setText(String.valueOf(horario));
+                    } else if (entrada == 19) {
+                        tvresult.setText(getText(R.string.umam));
+                    } else if (entrada == 20) {
+                        tvresult.setText(getText(R.string.doisam));
+                    } else if (entrada == 21) {
+                        tvresult.setText(getText(R.string.tresam));
+                    } else if (entrada == 22) {
+                        tvresult.setText(getText(R.string.quatroam));
+                    } else if (entrada == 23) {
+                        tvresult.setText(getText(R.string.cincoam));
+                    } else if (entrada == 24) {
+                        tvresult.setText(getText(R.string.seisam));
+                    }
+                });
+
 
         btnex2.setOnClickListener(new View.OnClickListener() {
             @Override
