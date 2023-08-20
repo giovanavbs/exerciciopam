@@ -63,8 +63,6 @@ Button - Botões podem ser usados para passsar para outras telas ou para realiza
 
 ![Exercicio 4 códigos][def6]
 
-[def6]: image/imageas2.png
-
 Primeiro, fazemos a declaração de cada uma das variáveis que serão utilizadas ao longo do código. 
 
 ![Exercicio 4 códigos][def7]
@@ -116,3 +114,4 @@ Aqui são as condições para todos os casos onde alguma das variáveis pode rec
 Por fim, o código do botão novamente para enviar para o outro exercício
 
 [def13]: image/imageas4.png
+[def6]: imageas2.png
