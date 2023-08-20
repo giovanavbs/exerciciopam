@@ -60,7 +60,6 @@ TextView - É uma caixa de texto não editável, para mostrar alguma informaçã
 EditText - É uma caixa de texto editável ao qual pode ser atríbuido algum tipo de valor. Ou seja, pode ser apenas numérica, para letras ou para digitar algo. Neste caso foi usada para determinar um número equivalente a uma hora
 Button - Botões podem ser usados para passsar para outras telas ou para realizar alguma outra ação de clique. Neste caso, foram usados dois. Um para passar para o próximo exercício e o outro para calcular o resultado.
 ```
-
 ![Exercicio 4 códigos][def6]
 
 Primeiro, fazemos a declaração de cada uma das variáveis que serão utilizadas ao longo do código. 
@@ -114,4 +113,4 @@ Aqui são as condições para todos os casos onde alguma das variáveis pode rec
 Por fim, o código do botão novamente para enviar para o outro exercício
 
 [def13]: image/imageas4.png
-[def6]: imageas2.png
+[def6]: image/imageas2.png
