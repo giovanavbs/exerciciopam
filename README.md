@@ -110,7 +110,13 @@ Aqui são as condições para todos os casos onde alguma das variáveis pode rec
 
 [def12]: image/imageas9.png
 
-Por fim, o código do botão novamente para enviar para o outro exercício
+Por fim, o código do botão novamente para enviar para o outro exercício.
 
 [def13]: image/imageas4.png
+
+
 [def6]: image/imageas2.png
+
+E aqui está o link do vídeo com o código funcionando: 
+https://youtu.be/GHcojaXr-D0
+
